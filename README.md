@@ -1,7 +1,9 @@
 # Unnamed-webdev-backend
 Backend para proyecto webdev, nombre unnamed
 
-Para cargar el proyecto, clonar el repo, instalar el env con requirements.txt, asegurarse de que exista una tabla de postgres que se llame unnamed-project en localhost, y colocar los nombres y password correctos en /unamed/settings.py (mi proyecto usa el base postgres/postgres)
+Para cargar el proyecto, clonar el repo, instalar el env con requirements.txt, asegurarse de que exista una tabla de postgres que se llame unnamed-project en localhost, y colocar los nombres y password correctos en /unamed/settings.py (mi proyecto usa el base postgres/postgres). Cuando esto se haya asegurado, correr `py manage.py runserver` o solo `manage.py runserver` dependiendo de como se tengan configuradas las variables de entorno.
+
+Unnamed es una idea de proyecto que he tenido desde mucho tiempo; la idea es una plataforma donde cualquier usuario, casi de forma anonima, puede colocar al publico una imagen, video, soundbyte, texto, historia, o link, y recibir likes y mensajes anonimos para cada uno. La idea es como un reddit super simplificado, pero de tema completamente libre y mucho más anónimo. Es una mala idea respecto a lo que la gente podría publicar y decir, como se comprobó en otro momento con la app "Secret", pero siempre me llamo la atención como una forma de siempre tener contenido nuevo sin ningún tipo de recomendación. Obviamente se tendría que implementar moderación super estricta para evitar problemas.
 
 # Cosas que se pueden hacer en el backend
 (Asumiendo que se usa postman)
